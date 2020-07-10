@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+      <i class="fa fa-user fa-2x logo-image"></i>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New Products</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </nav>
+    <header>
+
+      <button type="button" name="button" class="toggle-btn" id="toggle"><i type="button" class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+
+      <div class="bg-image">
+        <img src="images/bg-image.jpg" alt="background" class="background-image">
+      </div>
+      <h1 class="header-title">Landing Page</h1>
+      <p class="header-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, unde!</p>
+      <button type="button" name="button" class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div id="main">
+      <h3 class="main-header">High Quality</h3>
+      <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aperiam accusamus voluptas excepturi quam repudiandae laboriosam sit. Enim praesentium ipsum, doloribus. Quas, illum, natus. Dolore ad, architecto iste deserunt ut!</p>
+      <h3 class="main-header">Life Long Learning</h3>
+      <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius aliquid voluptates inventore cum delectus, voluptatum deleniti unde eligendi dicta quod ipsa, laborum beatae libero quas nemo odio temporibus assumenda minus? Exercitationem illo alias dolores expedita nam aperiam nostrum quidem, inventore.</p>
+      <h3 class="main-header">Accessibility</h3>
+      <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga provident voluptatum hic dicta dolores delectus maiores autem, cum natus illo voluptas eveniet amet possimus, odit numquam iure repudiandae fugiat quasi.</p>
+    </div>
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button type="button" name="button" class="close" id="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+        <p>Register with us</p>
+        <form id="form">
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username">
+            <small id="small"></small>
+          </div>
+          <div class="form-control">
+            <label for="username">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <small id="small"></small>
+          </div>
+          <div class="form-control">
+            <label for="username">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <small id="small"></small>
+          </div>
+          <div class="form-control">
+            <label for="username">Password Confirmation</label>
+            <input type="password" name="password-confirmation" id="password-confirmation" placeholder="Enter your password again">
+            <small id="small"></small>
+          </div>
+          <div class="modal-btn-container">
+            <button type="submit" name="button" id="modal-btn">Sign Up</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <script src="app.js">
+
+    </script>
+  </body>
+</html>
